@@ -51,7 +51,7 @@
 							<a href="portfolio-three-columns.html">Produtos e Serviços</a>
 						</li>
 						<li class="contains-mega-sub-menu">
-							<a href="portfolio-three-columns.html">Blog</a>
+							<a href="src/paginas/blog.php">Blog</a>
 						</li>
 						<li>
 							<a href="blog.html">Contato</a>
@@ -132,7 +132,7 @@
 										<a href="portfolio-three-columns.html">Produtos e Serviços</a>
 									</li>
 									<li class="contains-mega-sub-menu">
-										<a href="portfolio-three-columns.html">Blog</a>
+										<a href="src/paginas/blog.php">Blog</a>
 									</li>
 									<li>
 										<a href="blog.html">Contato</a>
@@ -161,7 +161,7 @@
 					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax>
 						<ul class="tms-slides">
 							<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000" 
-								data-overlay-bkg-opacity="0.75">
+								data-overlay-bkg-opacity="0.50">
 								<div class="tms-content">
 									<div class="tms-content-inner left left-on-mobile v-align-middle">
 										<div class="row">
@@ -215,6 +215,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="assets/js/timber.master.min.js"></script>
+	<script src="assets/js/vue.js"></script>
+	<script src="assets/js/meu_js/index.js"></script>
 </body>
 
 </html>
