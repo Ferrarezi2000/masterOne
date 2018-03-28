@@ -1,6 +1,20 @@
 <?php
 
-$conexao = new mysqli("localhost", "root", "1234", "blog");
+$hostProducao = "mysql.hostinger.com.br";
+$userProducao = "u829562745_blog";
+$senhaProducao = "123456";
+$bancoProducao = "u829562745_blog";
+
+$hostLocal = "localhost";
+$userLocal = "root";
+$senhaLocal = "1234";
+$bancoLocal = "blog";
+
+
+
+
+//$conexao = new mysqli($hostLocal, $userLocal, $senhaLocal, $bancoLocal);
+$conexao = new mysqli($hostProducao, $userProducao, $senhaProducao, $bancoProducao);
 $sql = mysqli_query($conexao, "SELECT * FROM blogs") or die( mysqli_error($conexao));
 
 
