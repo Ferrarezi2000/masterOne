@@ -14,15 +14,18 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
-<body>
+<body style="background-color: gainsboro">
 <div class="container">
 
-    <div class="col-md-10 col-md-offset-1 main" >
+    <div class="col-md-10 col-md-offset-1 main">
         <div class="col-md-6 left-side" >
-            <h3>SiDDiQUiE.NET</h3>
-            <p>Connect to SiDDiQUiE.NET network.</p>
+            <h3>MASTER ONE</h3>
+            <p>Painel Administrativo</p>
             <br>
 
+            <p>Caso não seja um Administrador do site
+                <a href="../../index.php" style="color: gold">click aqui!</a>
+            </p>
 
         </div><!--col-sm-6-->
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 	<meta charset="UTF-8" />
@@ -50,7 +50,7 @@
 							<a href="portfolio-three-columns.html">Produtos e Serviços</a>
 						</li>
 						<li class="contains-mega-sub-menu">
-							<a href="src/paginas/blog.php">Blog</a>
+							<a href="src/paginas/blog-wide-no-sidebar.php">Blog</a>
 						</li>
 						<li>
 							<a href="blog.html">Contato</a>
@@ -100,10 +100,10 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="index.html">
+									<a href="index.php">
 										<img src="imagens/resume/logo-dark.png" alt="Sartre Logo" />
 									</a>
-									<a href="index.html">
+									<a href="index.php">
 										<img src="imagens/resume/logo.png" alt="Sartre Logo" />
 									</a>
 								</div>
@@ -122,7 +122,7 @@
 							<nav class="navigation nav-block primary-navigation nav-right no-margin-right">
 								<ul>
 									<li class="current">
-										<a href="index.html">Home</a>
+										<a href="index.php">Home</a>
 									</li>
 									<li>
 										<a href="./src/administracao/login.php">Empresa</a>
@@ -131,7 +131,7 @@
 										<a href="portfolio-three-columns.html">Produtos e Serviços</a>
 									</li>
 									<li class="contains-mega-sub-menu">
-										<a href="src/paginas/blog.php">Blog</a>
+										<a href="src/paginas/blog-wide-no-sidebar.php">Blog</a>
 									</li>
 									<li>
 										<a href="blog.html">Contato</a>
