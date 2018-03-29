@@ -1,3 +1,7 @@
+<?php
+$paginaAtual = 'home'
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -28,128 +32,14 @@
 <body class="shop home-page">
 
 	<!-- Side Navigation Menu Celular-->
-	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
-		<div class="side-navigation-scroll-pane">
-			<div class="side-navigation-inner">
-				<div class="side-navigation-header">
-					<div class="navigation-hide side-nav-hide">
-						<a href="#">
-							<span class="icon-cancel medium"></span>
-						</a>
-					</div>
-				</div>
-				<nav class="side-navigation">
-					<ul>
-						<li class="current">
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="about-style-one.html">Empresa</a>
-						</li>
-						<li class="contains-mega-sub-menu">
-							<a href="portfolio-three-columns.html">Produtos e Serviços</a>
-						</li>
-						<li class="contains-mega-sub-menu">
-							<a href="src/paginas/blog-wide-no-sidebar.php">Blog</a>
-						</li>
-						<li>
-							<a href="blog.html">Contato</a>
-							<ul class="sub-menu">
-								<li>
-									<a href="blog.html">Fale Conosco</a>
-								</li>
-								<li>
-									<a href="blog-four-columns-full-width.html">Suporte</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-				<div class="side-navigation-footer">
-					<ul class="social-list list-horizontal">
-						<li>
-							<a href="#">
-								<span class="icon-twitter small"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="icon-facebook small"></span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<span class="icon-instagram small"></span>
-							</a>
-						</li>
-					</ul>
-					<p class="copyright no-margin-bottom">&copy; 2018 STAND BY.</p>
-				</div>
-			</div>
-		</div>
-	</aside>
+    <?php include 'php/componentes/menu-celular.php'; ?>
 	<!-- Side Navigation Menu End -->
 
 	<div class="wrapper reveal-side-navigation">
 		<div class="wrapper-inner">
 
 			<!-- Header -->
-			<header class="header header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="100">
-				<div class="header-inner">
-					<div class="row nav-bar">
-						<div class="column width-12 nav-bar-inner">
-							<div class="logo">
-								<div class="logo-inner">
-									<a href="index.php">
-										<img src="imagens/resume/logo-dark.png" alt="Sartre Logo" />
-									</a>
-									<a href="index.php">
-										<img src="imagens/resume/logo.png" alt="Sartre Logo" />
-									</a>
-								</div>
-							</div>
-							<nav class="navigation nav-block secondary-navigation nav-right">
-								<ul>
-
-									<li class="aux-navigation hide">
-										<!-- Aux Navigation -->
-										<a href="#" class="navigation-show side-nav-show nav-icon">
-											<span class="icon-menu"></span>
-										</a>
-									</li>
-								</ul>
-							</nav>
-							<nav class="navigation nav-block primary-navigation nav-right no-margin-right">
-								<ul>
-									<li class="current">
-										<a href="index.php">Home</a>
-									</li>
-									<li>
-										<a href="./src/administracao/login.php">Empresa</a>
-									</li>
-									<li class="contains-mega-sub-menu">
-										<a href="portfolio-three-columns.html">Produtos e Serviços</a>
-									</li>
-									<li class="contains-mega-sub-menu">
-										<a href="src/paginas/blog-wide-no-sidebar.php">Blog</a>
-									</li>
-									<li>
-										<a href="blog.html">Contato</a>
-										<ul class="sub-menu">
-											<li>
-												<a href="blog.html">Fale Conosco</a>
-											</li>
-											<li>
-												<a href="blog-four-columns-full-width.html">Suporte</a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
+            <?php include 'php/componentes/menu-site.php'; ?>
 			<!-- Header End -->
 
 			<!-- Content -->
