@@ -7,13 +7,12 @@ $paginaAtual = 'blog'
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
-	<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Your-Title-Here" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
-	<meta property="og:description" content="Your-Page-Description" />
-	<title>Sartre | Multipurpose HTML5 Template - Blog</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+    <meta name="twitter:widgets:theme" content="light">
+    <meta property="og:title" content="Master One" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Consultoria e inteligência em negócios" />
+    <title>Master One</title>
 	<link rel="shortcut icon" type="image/x-icon" href="imagens/theme-mountain-favicon.ico">
 
 	<!-- Font -->
