@@ -7,7 +7,6 @@
 	<meta name="twitter:widgets:theme" content="light">
 	<meta property="og:title" content="Master One" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
 	<meta property="og:description" content="Consultoria e inteligência em negócios" />
 	<title>Master One</title>
 	<link rel="shortcut icon" type="image/x-icon" href="imagens/theme-mountain-favicon.ico">
@@ -126,7 +125,7 @@
 										<a href="index.html">Home</a>
 									</li>
 									<li>
-										<a href="about-style-one.html">Empresa</a>
+										<a href="./src/administracao/login.php">Empresa</a>
 									</li>
 									<li class="contains-mega-sub-menu">
 										<a href="portfolio-three-columns.html">Produtos e Serviços</a>
