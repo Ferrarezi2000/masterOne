@@ -3,8 +3,8 @@
 switch ($paginaAtual) {
     case "home":
         $currentHome = "current";
-        $logoHome = "imagens/resume/logo.png";
-        $logoHomeDark = "imagens/resume/logo-dark.png";
+        $logoHome = "imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoHomeDark = "imagens/minhas_imagens/logo-menu/logo-dark-one.png";
         $urlBlog = "src/paginas/blog.php";
         break;
     case "empresa":
@@ -15,8 +15,8 @@ switch ($paginaAtual) {
         break;
     case "blog":
         $currentBlog = "current";
-        $logoHome = "../../imagens/logo.png";
-        $logoHomeDark = "../../imagens/logo-dark.png";
+        $logoHome = "../../imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoHomeDark = "../../imagens/minhas_imagens/logo-menu/logo-dark-one.png";
         $urlHome = "../../index.php";
         break;
     case "contato":

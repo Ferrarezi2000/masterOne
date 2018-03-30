@@ -1480,7 +1480,7 @@ body,
 	height: 15rem;
 }
 .intro-title-2{
-	background-image: url(../../imagens/slider/slide-2-page-intro.jpg);
+	background-image: url(../../imagens/minhas_imagens/blog/capa-blog.jpg);
 }
 .intro-title-2-1{
 	background-image: url(../../imagens/slider/slide-8-page-intro.jpg);
@@ -1492,7 +1492,7 @@ body,
 	background-image: url(../../imagens/slider/slide-11-page-intro.jpg);
 }
 .intro-title-2-4{
-	background-image: url(../../imagens/slider/slide-13-page-intro.jpg);
+	background-image: url(../../imagens/minhas_imagens/blog/capa-blog.jpg);
 }
 @media only screen and (max-width: 768px){
 	[class*="intro-title-"],
@@ -3785,7 +3785,7 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Intro Sections */
 	.intro-title-2{
-		background-image: url(../../imagens/slider/slide-2-page-intro@2x.jpg);
+		background-image: url(../../imagens/minhas_imagens/blog/capa-blog.jpg);
 	}
 	.intro-title-2-1{
 		background-image: url(../../imagens/slider/slide-8-page-intro@2x.jpg);
@@ -3797,7 +3797,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../../imagens/slider/slide-11-page-intro@2x.jpg);
 	}
 	.intro-title-2-4{
-		background-image: url(../../imagens/slider/slide-13-page-intro@2x.jpg);
+		background-image: url(../../imagens/minhas_imagens/blog/capa-blog.jpg);
 	}
 
 	/* Fullscreen Sections */

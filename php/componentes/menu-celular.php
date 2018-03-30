@@ -1,28 +1,27 @@
 <?php
-$currentHome = "";
-$currentEmpresa = "";
-$currentServicos = "";
-$currentBlog = "";
-$currentContato = "";
 
-if($paginaAtual === "home") {
-    $currentHome = "current";
-}
-
-if($paginaAtual === "empresa") {
-    $currentEmpresa = "current";
-}
-
-if($paginaAtual === "servicos") {
-    $currentServicos = "current";
-}
-
-if($paginaAtual === "blog") {
-    $currentBlog = "current";
-}
-
-if($paginaAtual === "contato") {
-    $currentContato = "current";
+switch ($paginaAtual) {
+    case "home":
+        $currentHome = "current";
+        $logoHome = "imagens/resume/logo.png";
+        $logoHomeDark = "imagens/resume/logo-dark.png";
+        $urlBlog = "src/paginas/blog.php";
+        break;
+    case "empresa":
+        $currentEmpresa = "current";
+        break;
+    case "servicos":
+        $currentServicos = "current";
+        break;
+    case "blog":
+        $currentBlog = "current";
+        $logoHome = "../../imagens/logo.png";
+        $logoHomeDark = "../../imagens/logo-dark.png";
+        $urlHome = "../../index.php";
+        break;
+    case "contato":
+        $currentContato = "current";
+        break;
 }
 
 ?>
@@ -40,7 +39,7 @@ if($paginaAtual === "contato") {
             <nav class="side-navigation">
                 <ul>
                     <li class="<?php echo $currentHome?>">
-                        <a href="../../index.php">Home</a>
+                        <a href="<?php echo $urlHome?>">Home</a>
                     </li>
                     <li class="<?php echo $currentEmpresa?>">
                         <a href="#">Empresa</a>
@@ -49,7 +48,7 @@ if($paginaAtual === "contato") {
                         <a href="#">Produtos e Serviços</a>
                     </li>
                     <li class="<?php echo $currentBlog?>">
-                        <a href="../../src/paginas/blog.php">Blog</a>
+                        <a href="<?php echo $urlBlog?>">Blog</a>
                     </li>
                     <li class="<?php echo $currentContato?>">
                         <a href="#">Contato</a>

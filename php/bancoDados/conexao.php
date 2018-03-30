@@ -8,7 +8,7 @@ $bancoProducao = "u829562745_blog";
 $hostLocal = "localhost";
 $userLocal = "root";
 $senhaLocal = "1234";
-$bancoLocal = "blog";
+$bancoLocal = "master-one";
 
 
 $conexao = new mysqli($hostLocal, $userLocal, $senhaLocal, $bancoLocal);
@@ -16,7 +16,7 @@ $conexao = new mysqli($hostLocal, $userLocal, $senhaLocal, $bancoLocal);
 
 
 if ($conexao) {
-    $sql = mysqli_query($conexao, "SELECT * FROM blogs") or die( mysqli_error($conexao));
+    $sql = mysqli_query($conexao, "SELECT * FROM post") or die( mysqli_error($conexao));
 
     $dados = array();
     while ($resultado = mysqli_fetch_array( $sql )) {
@@ -25,7 +25,7 @@ if ($conexao) {
             "id" => $resultado['id'],
             "titulo" => $resultado['titulo'],
             "texto" => $resultado['texto'],
-            "url" => $resultado['url'],
+            "imagem" => $resultado['imagem'],
             "data" => $resultado['data']
         );
     }

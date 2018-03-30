@@ -48,18 +48,7 @@ $paginaAtual = 'blog'
 						<div class="column width-12">
 							<div class="title-container">
 								<div class="title-container-inner center">
-									<h1 class="inline">Blog Full Width</h1>
-									<ul class="breadcrumb center">
-										<li>
-											<a href="../../index.php">Home</a>
-										</li>
-										<li>
-											<a href="index.html">Blog</a>
-										</li>
-										<li>
-											Blog Masonry
-										</li>
-									</ul>
+									<h1 class="inline">Blog Master One</h1>
 								</div>
 							</div>
 						</div>
@@ -83,7 +72,7 @@ $paginaAtual = 'blog'
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
                                          data-hover-speed="700" data-hover-bkg-color="#ffffff"
                                          data-hover-bkg-opacity="0.9">
-											<img src="../../imagens/blog/'.$value['url'].'" alt=""/>
+											<img src="../../imagens/minhas_imagens/blog/post/'.$value['imagem'].'" alt=""/>
 									</div>
 								</div>
 								<div class="post-content">
@@ -110,58 +99,7 @@ $paginaAtual = 'blog'
 			<!-- Content End -->
 			
 			<!-- Footer -->
-			<footer class="footer">
-				<div class="footer-top">
-					<div class="row flex">
-						<div class="column width-6">
-							<div class="widget">
-								<h4 class="widget-title weight-light">About</h4>
-								<p><strong>Starting a new business?</strong> Then Sartre is for you!<br> This multi-purpose template offsers 8 carefully crafted concepts with two variations each, 20+ components and 8+ plugins. It also comes with a range of different headers, footers and pre-designed content blocks that can easily be swaped around to create new interesting layouts. Simple, Elegent and Powerful!<p>
-							</div>
-						</div>
-						<div class="column width-6">
-							<div class="widget">
-								<h4 class="widget-title">Get Notified</h4>
-								<p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
-								<div class="signup-form-container">
-									<form class="signup-form" action="php/subscribe.php" method="post" novalidate>
-										<div class="row">
-											<div class="column width-8">
-												<div class="field-wrapper">
-													<input type="email" name="email" class="form-email form-element" placeholder="Email address" tabindex="2" required>
-												</div>
-											</div>
-											<div class="column width-4">
-												<input type="submit" value="Signup" class="form-submit button border-grey bkg-hover-grey color-white color-hover-white">
-											</div>
-										</div>
-										<input type="text" name="honeypot" class="form-honeypot form-element">
-									</form>
-									<div class="form-response show"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom">
-					<div class="row">
-						<div class="column width-12">
-							<div class="footer-bottom-inner center">
-								<p class="copyright pull-left clear-float-on-mobile">
-									&copy; ThemeMountain. All Rights Reserved. <a href="#">Terms & Conditions</a> | <a href="#">Cookie policy</a>
-								</p>
-								<ul class="social-list list-horizontal pull-right clear-float-on-mobile">
-									<li><a href="#"><span class="icon-twitter small"></span></a></li>
-									<li><a href="#"><span class="icon-facebook small"></span></a></li>
-									<li><a href="#"><span class="icon-youtube small"></span></a></li>
-									<li><a href="#"><span class="icon-vimeo small"></span></a></li>
-									<li><a href="#"><span class="icon-instagram small"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<?php include '../../php/componentes/rodape.php'?>
 			<!-- Footer End -->
 
 		</div>

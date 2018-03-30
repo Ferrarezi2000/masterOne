@@ -50,7 +50,7 @@ $paginaAtual = 'home'
 					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax>
 						<ul class="tms-slides">
 							<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#000000" 
-								data-overlay-bkg-opacity="0.50">
+								data-overlay-bkg-opacity="0.60">
 								<div class="tms-content">
 									<div class="tms-content-inner left left-on-mobile v-align-middle">
 										<div class="row">
