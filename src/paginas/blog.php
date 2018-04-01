@@ -1,10 +1,10 @@
 <?php
-include '../../php/bancoDados/conexao.php';
+include '../../php/bancoDados/todos-posts.php';
 $paginaAtual = 'blog'
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 	<meta charset="UTF-8" />
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
@@ -13,7 +13,7 @@ $paginaAtual = 'blog'
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Consultoria e inteligência em negócios" />
     <title>Master One</title>
-	<link rel="shortcut icon" type="image/x-icon" href="imagens/theme-mountain-favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="../../imagens/theme-mountain-favicon.ico">
 
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
@@ -65,32 +65,52 @@ $paginaAtual = 'blog'
 
                         foreach($dados as $value){
 
-                            echo'
-                        <div class="column width-10 offset-1 content-inner blog-regular center">
-							<article class="post">
-								<div class="post-media">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
-                                         data-hover-speed="700" data-hover-bkg-color="#ffffff"
-                                         data-hover-bkg-opacity="0.9">
-											<img src="../../imagens/minhas_imagens/blog/post/'.$value['imagem'].'" alt=""/>
-									</div>
-								</div>
-								<div class="post-content">
-									<h2 class="post-title">'.$value['titulo'].'</h2>
-									<div class="post-info">
-										<span class="post-autor">'.$value['data'].'</span>
-									</div>
-									<div class="row">
-										<div class="column width-10 offset-1">
-											<p>'.$value['texto'].'</p>
-										</div>
-									</div>
-								</div>
-							</article>
-						</div>';
+                            if ($value['imagem'] !== 'padrao') {
+                                echo'
+                                    <div class="column width-10 offset-1 content-inner blog-regular center">
+                                        <article class="post">
+                                            <div class="post-media">
+                                                <div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
+                                                     data-hover-speed="700" data-hover-bkg-color="#ffffff"
+                                                     data-hover-bkg-opacity="0.9">
+                                                        <img src="../../imagens/minhas_imagens/blog/post/'.$value['imagem'].'" alt=""/>
+                                                </div>
+                                            </div>
+                                            <div class="post-content">
+                                                <h2 class="post-title">'.$value['titulo'].'</h2>
+                                                <div class="post-info">
+                                                    <span class="post-autor">'.$value['data'].'</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="column width-10 offset-1">
+                                                        <p>'.$value['texto'].'</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>';
+                            } else {
+                                echo'
+                                    <div class="column width-10 offset-1 content-inner blog-regular center">
+                                        <article class="post">
+                                            <div class="post-media">
+                                            </div>
+                                            <div class="post-content">
+                                                <h2 class="post-title">'.$value['titulo'].'</h2>
+                                                <div class="post-info">
+                                                    <span class="post-autor">'.$value['data'].'</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="column width-10 offset-1">
+                                                        <p>'.$value['texto'].'</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>';
+                                    }
+                        }; ?>
 
-                        }
-                        ?>
 
                     </div>
                 </div>

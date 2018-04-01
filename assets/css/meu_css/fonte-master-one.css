@@ -1,0 +1,17 @@
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url("../../fonts/OptimusPrinceps.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: Sansation;
+    src: url("../../fonts/Sansation_Regular.ttf") format("truetype")
+}
+
+.titulo {
+    font-family: "OptimusPrinceps";
+}
+
+.subtitulo {
+    font-family: "Sansation";
+}
