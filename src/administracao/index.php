@@ -82,9 +82,12 @@
                                     <td>'.$value['data'].'</td>
                                     
                                     <td>
-                                        <a class="btn btn-danger edit" href="path/to/settings" aria-label="Settings">
+                                    <form action="../../php/bancoDados/deleta-post.php" method="post">
+                                    <input name="id" value="'.$value['id'].'" style="display: none"/>
+                                        <button type="submit">
                                             <i class="fa fa-trash" aria-hidden="true"></i>
-                                        </a>
+                                        </button>
+                                     </form>
                                     </td>
                                 </tr>'
                             ;
