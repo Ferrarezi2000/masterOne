@@ -7,50 +7,26 @@ $assunto = $_POST['assunto'];
 $mensagem = $_POST['mensagem'];
 $email = $_POST['email'];
 
-echo $nome;
-
 // Compo E-mail
 $arquivo = "
-  <style type='text/css'>
-  body {
-  margin:0px;
-  font-family:Verdane;
-  font-size:12px;
-  color: #666666;
-  }
-  a{
-  color: #666666;
-  text-decoration: none;
-  }
-  a:hover {
-  color: #FF0000;
-  text-decoration: none;
-  }
-  </style>
-    <html>
-        <table width='510' border='1' cellpadding='1' cellspacing='1' bgcolor='#CCCCCC'>
-            <tr>
-              <td>
-            <tr>
-              <td width='500'>Nome:$nome</td>
-            </tr>
-            <tr>
-              <td width='320'>Sobrenome:<b>$sobrenome</b></td>
-            </tr>
-            <tr>
-              <td width='320'>Assunto:<b>$assunto</b></td>
-            </tr>
-            <tr>
-              <td width='320'>Email:<b>$email</b></td>
-            </tr>
-            <tr>
-              <td width='320'>Mensagem:$mensagem</td>
-            </tr>
-            </td>
-          </tr>
-        </table>
-    </html>
-  ";
+<html>
+<div style=\"width: 100%; padding-top: 10px; padding-bottom: 10px; text-align: center; background-color: #1f2d3b; color: white\">
+    <h3>Master One</h3>
+    <div style=\"font-size: 12px\">Nova mensagem recebida.</div>
+</div>
+
+<div style=\"margin-right: 50px; margin-left: 50px; margin-top: 20px\">
+    <div><strong>Remetente:</strong></div>
+    <div style=\"margin-left: 10px\">$nome $sobrenome</div>
+    <div><strong>Assunto:</strong></div>
+    <div style=\"margin-left: 10px\">$assunto</div>
+    <div><strong>Email:</strong></div>
+    <div style=\"margin-left: 10px\">$email</div>
+    <div><strong>Mensagem:</strong></div>
+    <div style=\"text-align: justify; margin-left: 10px\">$mensagem</div>
+</div>
+</html>
+";
 
 //enviar
 
@@ -62,7 +38,7 @@ $assunto = "Contato pelo Site";
 // É necessário indicar que o formato do e-mail é html
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers .= 'From: $nome <$email>';
+$headers .= 'From: Master One';
 
 $enviaremail = mail($destino, $assunto, $arquivo, $headers);
 if($enviaremail){
