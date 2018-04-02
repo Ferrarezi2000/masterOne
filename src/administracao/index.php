@@ -17,17 +17,8 @@
     <title>Master One</title>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <?php
-    session_start();
-    if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true)) {
-        unset($_SESSION[ 'login' ]);
-        unset($_SESSION[ 'senha' ]);
-        header('location:http://127.0.0.1/edsa-Master%20One/index.php');
-    }
+    <?php include '../../php/componentes/session.php' ?>
 
-    $logado = $_SESSION['login'];
-
-    ?>
 </head>
 <body>
 <div class="section" style="margin-top: 45px">
@@ -102,6 +93,9 @@
 
 <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container">
+        <div class="navbar-header">
+            <div style="margin-top: 15px; color: wheat"><?php echo $logado ?></div>
+        </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li>

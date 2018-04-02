@@ -44,14 +44,16 @@ if ($conexao) {
 
     $query = "INSERT INTO post (titulo, texto, imagem, data) VALUES ('$titulo', '$texto', '$novoNome', '$data')";
     $insert = mysqli_query($conexao, $query);
+    $erro = mysqli_error($conexao);
+    echo $erro;
 
     if ($insert) {
         echo "<script language='javascript' type='text/javascript'>
-                alert('Post cadastrado com sucesso!');window.location.href='../../src/administracao/index.php'
+                alert('Post cadastrado com sucesso!');window.location.href='../../src/administracao/index.php';
               </script>";
     } else {
         echo "<script language='javascript' type='text/javascript'>
-                alert('Tente novamente mais tarde.');
+                alert('Tente novamente mais tarde.');window.location.href='../../src/administracao/index.php';
               </script>";
     }
 }

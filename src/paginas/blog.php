@@ -88,7 +88,8 @@ $paginaAtual = 'blog'
                                                 </div>
                                             </div>
                                         </article>
-                                    </div>';
+                                    </div>
+                                    <hr>';
                             } else {
                                 echo'
                                     <div class="column width-10 offset-1 content-inner blog-regular center">
@@ -107,7 +108,8 @@ $paginaAtual = 'blog'
                                                 </div>
                                             </div>
                                         </article>
-                                    </div>';
+                                    </div>
+                                    <hr>';
                                     }
                         }; ?>
 
