@@ -142,73 +142,75 @@ $paginaAtual = 'contato'
 				</section>
 				<!-- Full Width Slider Section -->
 
-				<!-- About Intro -->
-				<div class="section-block replicable-content">
-					<div class="row">
-						<div class="column width-8 offset-2 center">
-							<p class="lead">Lorem ipsum dolor sit amet,
-                                <strong>consectetur adipisicing elit</strong>,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-				</div>
-				<!-- About Intro End -->
-
 				<!--Contact Form -->
-                <section class="section-block replicable-content contact-2 no-padding-top">
-
+                <section class="section-block replicable-content contact-2 cor_fundo">
                     <div class="row">
-                        <div class="column width-8 offset-2 center">
-                            <h2 class="mb-30">Olá</h2>
+                        <div class="column width-4">
+                            <h2 class="mb-30">Bem vindo</h2>
+                            <div class="row">
+                                <div class="column width-10">
+                                    <p>Entre em contato conosco, será um prazer atende-lós.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column width-8 left">
                             <div class="contact-form-container">
-
                                 <form action="../../php/email.php" name="form_contato" method="post">
                                     <div class="row">
+
                                         <div class="column width-6">
                                             <input type="text" name="nome" class="form-fname form-element large"
                                                    placeholder="Nome*" tabindex="1" required>
                                         </div>
+
                                         <div class="column width-6">
                                             <input type="text" name="sobrenome" class="form-lname form-element large"
                                                    placeholder="Sobrenome*" tabindex="2" required>
                                         </div>
-                                        <div class="column width-6">
-                                            <input type="email" name="email" class="form-email form-element large"
-                                                   placeholder="Email*" tabindex="3" required>
-                                        </div>
-                                        <div class="column width-6">
+
+                                        <div class="column width-12">
                                             <input type="text" name="assunto" class="form-website form-element large"
                                                    placeholder="Assunto*" tabindex="4" required>
                                         </div>
+
+                                        <div class="column width-12">
+                                            <input type="email" name="email" class="form-email form-element large"
+                                                   placeholder="Email*" tabindex="3" required>
+                                        </div>
                                     </div>
+
                                     <div class="row">
                                         <div class="column width-12">
                                             <div class="field-wrapper">
-												<textarea name="mensagem" class="form-message form-element large"
-                                                          placeholder="Mensagem*" tabindex="7" required></textarea>
+
+                                                <div>
+                                                    <textarea name="mensagem" class="form-message form-element large"
+                                                              placeholder="Mensagem*" tabindex="7" required=></textarea>
+                                                </div>
+
+                                                <div class="column width-12">
+                                                    <div class="field-wrapper pt-10 pb-10">
+                                                        <input id="checkbox-1" class="form-element checkbox" name="checkbox-1"
+                                                               type="checkbox" required>
+                                                        <label for="checkbox-1" class="checkbox-label">Não sou robô.</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="column width-12">
+                                                    <button type="submit" class="form-submit button medium bkg-theme
+                                                             bkg-hover-theme color-white color-hover-white">
+                                                        Enviar
+                                                    </button>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="column width-12">
-                                            <div class="field-wrapper pt-10 pb-10">
-                                                <input id="checkbox-1" class="form-element checkbox" name="checkbox-1"
-                                                       type="checkbox" required>
-                                                <label for="checkbox-1" class="checkbox-label">Não sou Robô</label>
-                                            </div>
-                                        </div>
-                                        <div class="column width-12">
-                                            <input type="submit" value="Enviar"
-                                                   class="form-submit button medium bkg-theme bkg-hover-theme color-white
-                                                          color-hover-white">
                                         </div>
                                     </div>
                                 </form>
-                                <div class="form-response center"></div>
                             </div>
                         </div>
                     </div>
                 </section>
 				<!--Contact Form End -->
-
 			</div>
 			<!-- Content End -->
 
