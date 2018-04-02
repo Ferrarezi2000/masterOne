@@ -3,9 +3,10 @@
 switch ($paginaAtual) {
     case "home":
         $currentHome = "current";
-        $logoHome = "imagens/minhas_imagens/logo-menu/logo-one.png";
-        $logoHomeDark = "imagens/minhas_imagens/logo-menu/logo-dark-one.png";
+        $logo = "imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoDark = "imagens/minhas_imagens/logo-menu/logo-dark-one.png";
         $urlBlog = "src/paginas/blog.php";
+        $urlContato = "src/paginas/contato.php";
         break;
     case "empresa":
         $currentEmpresa = "current";
@@ -15,12 +16,17 @@ switch ($paginaAtual) {
         break;
     case "blog":
         $currentBlog = "current";
-        $logoHome = "../../imagens/minhas_imagens/logo-menu/logo-one.png";
-        $logoHomeDark = "../../imagens/minhas_imagens/logo-menu/logo-dark-one.png";
+        $logo = "../../imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoDark = "../../imagens/minhas_imagens/logo-menu/logo-dark-one.png";
         $urlHome = "../../index.php";
+        $urlContato = "../src/paginas/contato.php";
         break;
     case "contato":
         $currentContato = "current";
+        $logo = "../../imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoDark = "../../imagens/minhas_imagens/logo-menu/logo-dark-one.png";
+        $urlHome = "../../index.php";
+        $urlBlog = "../src/paginas/blog.php";
         break;
 }
 
@@ -33,8 +39,8 @@ switch ($paginaAtual) {
             <div class="column width-12 nav-bar-inner">
                 <div class="logo">
                     <div class="logo-inner">
-                        <a href="#"><img src="<?php echo $logoHomeDark?>" alt="Logo" /></a>
-                        <a href="#"><img src="<?php echo $logoHome?>" alt="Logo" /></a>
+                        <a href="#"><img src="<?php echo $logoDark?>" alt="Logo" /></a>
+                        <a href="#"><img src="<?php echo $logo?>" alt="Logo" /></a>
                     </div>
                 </div>
                 <nav class="navigation nav-block secondary-navigation nav-right">
@@ -62,7 +68,7 @@ switch ($paginaAtual) {
                             <a href="<?php echo $urlBlog?>">Blog</a>
                         </li>
                         <li class="<?php echo $currentContato?>">
-                            <a href="#">Contato</a>
+                            <a href="<?php echo $urlContato?>">Contato</a>
                         </li>
                     </ul>
                 </nav>

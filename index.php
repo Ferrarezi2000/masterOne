@@ -25,22 +25,97 @@ $paginaAtual = 'home'
 	<link rel="stylesheet" href="assets/css/meu_css/index.css" />
 	<link rel="stylesheet" href="assets/css/meu_css/fonte-master-one.css" />
 
-	<!--[if lt IE 9]-->
-    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
 </head>
 
 <body class="shop home-page">
 
-	<!-- Side Navigation Menu Celular-->
-    <?php include 'php/componentes/menu-celular.php'; ?>
-	<!-- Side Navigation Menu End -->
+	<!-- Menu Celular-->
+    <aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+        <div class="side-navigation-scroll-pane">
+            <div class="side-navigation-inner">
+                <div class="side-navigation-header">
+                    <div class="navigation-hide side-nav-hide">
+                        <a href="#">
+                            <span class="icon-cancel medium"></span>
+                        </a>
+                    </div>
+                </div>
+                <nav class="side-navigation">
+                    <ul>
+                        <li class="current">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="#">Produtos e Serviços</a>
+                        </li>
+                        <li>
+                            <a href="src/paginas/blog.php">Blog</a>
+                        </li>
+                        <li>
+                            <a href="src/paginas/contato.php">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="side-navigation-footer">
+                    <p class="copyright no-margin-bottom">&copy; 2018 STAND BY.</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+	<!-- Menu End -->
 
 	<div class="wrapper reveal-side-navigation">
 		<div class="wrapper-inner">
 
-			<!-- Header -->
-            <?php include 'php/componentes/menu-site.php'; ?>
+			<!-- Menu Site -->
+            <header class="header header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="100"
+                    data-compact-threshold="100">
+                <div class="header-inner">
+                    <div class="row nav-bar">
+                        <div class="column width-12 nav-bar-inner">
+                            <div class="logo">
+                                <div class="logo-inner">
+                                    <a href="#"><img src="imagens/minhas_imagens/logo-menu/logo-dark-one.png" alt="Logo" /></a>
+                                    <a href="#"><img src="imagens/minhas_imagens/logo-menu/logo-one.png" alt="Logo" /></a>
+                                </div>
+                            </div>
+                            <nav class="navigation nav-block secondary-navigation nav-right">
+                                <ul>
+                                    <li class="aux-navigation hide">
+                                        <!-- Aux Navigation -->
+                                        <a href="#" class="navigation-show side-nav-show nav-icon">
+                                            <span class="icon-menu"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="navigation nav-block primary-navigation nav-right">
+                                <ul>
+                                    <li class="current">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Empresa</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Produtos e Serviços</a>
+                                    </li>
+                                    <li>
+                                        <a href="src/paginas/blog.php">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="src/paginas/contato.php">Contato</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
 			<!-- Header End -->
 
 			<!-- Content -->
@@ -105,7 +180,6 @@ $paginaAtual = 'home'
 
 	<!-- Js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="assets/js/timber.master.min.js"></script>
 	<script src="assets/js/vue.js"></script>
 	<script src="assets/js/meu_js/index.js"></script>

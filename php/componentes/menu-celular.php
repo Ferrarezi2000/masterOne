@@ -3,9 +3,10 @@
 switch ($paginaAtual) {
     case "home":
         $currentHome = "current";
-        $logoHome = "imagens/resume/logo.png";
-        $logoHomeDark = "imagens/resume/logo-dark.png";
+        $logo = "imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoDark = "imagens/minhas_imagens/logo-menu/logo-dark-one.png";
         $urlBlog = "src/paginas/blog.php";
+        $urlContato = "src/paginas/contato.php";
         break;
     case "empresa":
         $currentEmpresa = "current";
@@ -15,12 +16,17 @@ switch ($paginaAtual) {
         break;
     case "blog":
         $currentBlog = "current";
-        $logoHome = "../../imagens/logo.png";
-        $logoHomeDark = "../../imagens/logo-dark.png";
+        $logo = "../../imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoDark = "../../imagens/minhas_imagens/logo-menu/logo-dark-one.png";
         $urlHome = "../../index.php";
+        $urlContato = "../src/paginas/contato.php";
         break;
     case "contato":
         $currentContato = "current";
+        $logo = "../../imagens/minhas_imagens/logo-menu/logo-one.png";
+        $logoDark = "../../imagens/minhas_imagens/logo-menu/logo-dark-one.png";
+        $urlHome = "../../index.php";
+        $urlBlog = "../src/paginas/blog.php";
         break;
 }
 
@@ -51,7 +57,7 @@ switch ($paginaAtual) {
                         <a href="<?php echo $urlBlog?>">Blog</a>
                     </li>
                     <li class="<?php echo $currentContato?>">
-                        <a href="#">Contato</a>
+                        <a href="#<?php echo $urlContato?>>Contato</a>
                     </li>
                 </ul>
             </nav>
