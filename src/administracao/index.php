@@ -73,9 +73,16 @@
                                     <td>'.$value['data'].'</td>
                                     
                                     <td>
+                                    <form action="./editar.php" method="post">
+                                        <input name="id" value="'.$value['id'].'" style="display: none"/> 
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                        </button>
+                                     </form>
+                                     
                                     <form action="../../php/bancoDados/deleta-post.php" method="post">
-                                    <input name="id" value="'.$value['id'].'" style="display: none"/>
-                                        <button type="submit">
+                                    <input name="id" value="'.$value['id'].'" style="display: none"/>                                    
+                                        <button type="submit" class="btn btn-danger">
                                             <i class="fa fa-trash" aria-hidden="true"></i>
                                         </button>
                                      </form>

@@ -140,7 +140,7 @@ $paginaAtual = 'blog'
 
                         foreach($dados as $value){
 
-                            if ($value['imagem'] !== 'padrao') {
+                            if ($value['imagem'] !== 'padrao.jpg') {
                                 echo'
                                     <div class="column width-10 offset-1 content-inner blog-regular center">
                                         <article class="post">
