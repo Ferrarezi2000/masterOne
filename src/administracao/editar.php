@@ -309,13 +309,18 @@ echo $resultado["titulo"];
     <!--  More -->
     <div class="form-group">
         <div class="controls">
-            <textarea name="texto" class="floatLabel" id="texto" required ><?php echo $resultado["texto"] ?></textarea>
-            <label for="texto">Texto</label>
+            <textarea id="texto" name="texto" required><?php echo $resultado["texto"] ?></textarea>
+<!--            <textarea name="texto" class="floatLabel" id="texto" required >--><?php //echo $resultado["texto"] ?><!--</textarea>-->
+<!--            <label for="texto">Texto</label>-->
             <button type="submit">Salvar</button>
         </div>
     </div>
 
 </form>
+<script src="../../ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace( 'texto' );
+</script>
 <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script >(function($){
         function floatLabel(inputType){
