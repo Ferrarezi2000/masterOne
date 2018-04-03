@@ -1,8 +1,10 @@
 <?php include '../../php/bancoDados/todos-posts.php' ?>
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
 <!DOCTYPE html>
@@ -21,6 +23,23 @@
 
 </head>
 <body>
+
+<!--Menu-->
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <div style="margin-top: 15px; color: wheat"><?php echo $logado ?></div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="../../index.php">Sair</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 <div class="section" style="margin-top: 45px">
     <div class="container">
         <div class="row">
@@ -41,6 +60,8 @@
         </div>
     </div>
 </div>
+
+<div id="app">
 <div class="section">
     <div class="container">
         <div class="row">
@@ -73,19 +94,17 @@
                                     <td>'.$value['data'].'</td>
                                     
                                     <td>
-                                    <form action="./editar.php" method="post">
-                                        <input name="id" value="'.$value['id'].'" style="display: none"/> 
-                                        <button type="submit" class="btn btn-primary">
-                                            <i class="fa fa-pencil" aria-hidden="true"></i>
-                                        </button>
-                                     </form>
-                                     
-                                    <form action="../../php/bancoDados/deleta-post.php" method="post">
-                                    <input name="id" value="'.$value['id'].'" style="display: none"/>                                    
-                                        <button type="submit" class="btn btn-danger">
+                                        <form action="./editar.php" method="post">
+                                            <input name="id" value="'.$value['id'].'" style="display: none"/> 
+                                            <button type="submit" class="btn btn-primary">
+                                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                            </button>
+                                         </form>
+                                                                                  
+                                        <button type="submit" class="btn btn-danger" @click="deletarPost('.$value['id'].')"
+                                                    data-toggle="modal" data-target="#delete">
                                             <i class="fa fa-trash" aria-hidden="true"></i>
                                         </button>
-                                     </form>
                                     </td>
                                 </tr>'
                             ;
@@ -98,20 +117,52 @@
     </div>
 </div>
 
-<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-            <div style="margin-top: 15px; color: wheat"><?php echo $logado ?></div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="../../index.php">Sair</a>
-                </li>
-            </ul>
+
+<!--Modal Confirmarção Delete-->
+<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="Delete" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h3 class="modal-title" id="lineModalLabel">Atenção!</h3>
+            </div>
+            <form action="../../php/bancoDados/deleta-post.php" method="post">
+            <div class="modal-body">
+                <div>Deseja realmente excluir esse Post?</div>
+                <!-- content goes here -->
+                <input name="id" v-model="idDelete" style="display: none"/>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group btn-group-justified" role="group" aria-label="group button">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"  role="button">Fechar</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="submit" id="saveImage" class="btn btn-danger btn-hover-green"
+                                role="button">Excluir</button>
+                    </div>
+                </div>
+            </div>
+            </form>
         </div>
     </div>
 </div>
 
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            idDelete: null,
+            editarPost: null
+        },
+        methods: {
+            deletarPost(id) {
+                this.idDelete = id
+            }
+        }
+    })
+</script>
 </body>
 </html>

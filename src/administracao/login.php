@@ -9,10 +9,10 @@
     <meta property="og:description" content="Consultoria e inteligência em negócios" />
     <title>Master One</title>
 
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="../../assets/css/meu_css/login.css" rel="stylesheet">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body style="background-color: gainsboro">
 <div class="container">
