@@ -75,8 +75,8 @@ $paginaAtual = 'blog'
                         <div class="column width-12 nav-bar-inner">
                             <div class="logo">
                                 <div class="logo-inner">
-                                    <a href="#"><img src="../../imagens/minhas_imagens/logo-menu/logo-dark-one.png" alt="Logo" /></a>
-                                    <a href="#"><img src="../../imagens/minhas_imagens/logo-menu/logo-one.png" alt="Logo" /></a>
+                                    <a href="../../index.php"><img src="../../imagens/minhas_imagens/logo-menu/logo-dark-one.png" alt="Logo" /></a>
+                                    <a href="../../index.php"><img src="../../imagens/minhas_imagens/logo-menu/logo-one.png" alt="Logo" /></a>
                                 </div>
                             </div>
                             <nav class="navigation nav-block secondary-navigation nav-right">

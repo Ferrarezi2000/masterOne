@@ -21,6 +21,8 @@ $paginaAtual = 'contato'
 	<!-- Css -->
 	<link rel="stylesheet" href="../../assets/css/core.min.css" />
 	<link rel="stylesheet" href="../../assets/css/skin.css" />
+    <link rel="stylesheet" href="../../assets/css/meu_css/contato.css"/>
+    <link rel="stylesheet" href="../../assets/css/meu_css/base.css"/>
 
 </head>
 <body class="shop">
@@ -75,8 +77,8 @@ $paginaAtual = 'contato'
                         <div class="column width-12 nav-bar-inner">
                             <div class="logo">
                                 <div class="logo-inner">
-                                    <a href="#"><img src="../../imagens/minhas_imagens/logo-menu/logo-dark-one.png" alt="Logo" /></a>
-                                    <a href="#"><img src="../../imagens/minhas_imagens/logo-menu/logo-one.png" alt="Logo" /></a>
+                                    <a href="../../index.php"><img src="../../imagens/minhas_imagens/logo-menu/logo-dark-one.png" alt="Logo" /></a>
+                                    <a href="../../index.php"><img src="../../imagens/minhas_imagens/logo-menu/logo-one.png" alt="Logo" /></a>
                                 </div>
                             </div>
                             <nav class="navigation nav-block secondary-navigation nav-right">
@@ -143,7 +145,7 @@ $paginaAtual = 'contato'
 				<!-- Full Width Slider Section -->
 
 				<!--Contact Form -->
-                <section class="section-block replicable-content contact-2 cor_fundo">
+                <section class="section-block replicable-content contact-2 textura">
                     <div class="row">
                         <div class="column width-4">
                             <h2 class="mb-30">Bem vindo</h2>
@@ -198,7 +200,7 @@ $paginaAtual = 'contato'
 
                                                 <div class="column width-12">
                                                     <button type="submit" class="form-submit button medium bkg-theme
-                                                             bkg-hover-theme color-white color-hover-white">
+                                                    botaoPrincipal bkg-hover-theme color-white color-hover-white">
                                                         Enviar
                                                     </button>
                                                 </div>
