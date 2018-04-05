@@ -18,6 +18,7 @@ echo $resultado["titulo"];
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
