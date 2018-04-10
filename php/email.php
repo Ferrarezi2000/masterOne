@@ -50,4 +50,3 @@ if($enviaremail){
              alert('Falha ao enviar o email.');window.location.href='../index.php';
           </script>";
 }
-?>
