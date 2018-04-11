@@ -1,4 +1,8 @@
 .textura {
-    background-repeat: repeat;
-    background-image: url("../../../imagens/minhas_imagens/contato/textura.jpg");
+    background-color: whitesmoke !important;
+    /*background-repeat: repeat;*/
+    /*background-image: url("../../../imagens/minhas_imagens/contato/textura-land.jpg");*/
+}
+.txt-just {
+    text-align: justify !important;
 }
