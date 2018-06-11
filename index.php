@@ -46,10 +46,10 @@ $paginaAtual = 'home'
                             <a href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">Empresa</a>
+                            <a href="src/paginas/empresa.php">Empresa</a>
                         </li>
                         <li>
-                            <a href="#">Produtos e Serviços</a>
+                            <a href="src/paginas/servico.php">Produtos e Serviços</a>
                         </li>
                         <li>
                             <a href="src/paginas/blog.php">Blog</a>
@@ -99,10 +99,10 @@ $paginaAtual = 'home'
                                         <a href="#">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Empresa</a>
+                                        <a href="src/paginas/empresa.php">Empresa</a>
                                     </li>
                                     <li>
-                                        <a href="#">Produtos e Serviços</a>
+                                        <a href="src/paginas/servico.php">Produtos e Serviços</a>
                                     </li>
                                     <li>
                                         <a href="src/paginas/blog.php">Blog</a>
