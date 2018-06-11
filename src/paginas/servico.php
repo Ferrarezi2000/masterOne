@@ -225,7 +225,7 @@ $paginaAtual = 'servico'
                             <div class="column width-5 v-align-middle">
                                 <div class="feature-column">
                                     <h3 class="mb-50">SAP no Mundo</h3>
-                                    <p>
+                                    <p style="text-align: justify">
                                         Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
                                         laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
                                         reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
@@ -243,27 +243,27 @@ $paginaAtual = 'servico'
                                                         <span class="stat-counter" data-count-from="400" data-count-to="600">400</span>
                                                     </p>
                                                     <p class="description">Client Accounts</p>
-                                                    <p class="counter">
-                                                        <span class="stat-counter" data-count-from="650" data-count-to="950">650</span>
-                                                    </p>
-                                                    <p class="description">Design Awards</p>
+<!--                                                    <p class="counter">-->
+<!--                                                        <span class="stat-counter" data-count-from="650" data-count-to="950">650</span>-->
+<!--                                                    </p>-->
+<!--                                                    <p class="description">Design Awards</p>-->
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="grid-item">
-                                            <div class="stat">
-                                                <div class="stat-inner">
-                                                    <p class="counter">
-                                                        <span class="stat-counter" data-count-from="420" data-count-to="840">420</span>
-                                                    </p>
-                                                    <p class="description">Websites Built</p>
-                                                    <p class="counter">
-                                                        <span class="stat-counter" data-count-from="220" data-count-to="720">200</span>
-                                                    </p>
-                                                    <p class="description">Design Awards</p>
-                                                </div>
-                                            </div>
-                                        </div>
+<!--                                        <div class="grid-item">-->
+<!--                                            <div class="stat">-->
+<!--                                                <div class="stat-inner">-->
+<!--                                                    <p class="counter">-->
+<!--                                                        <span class="stat-counter" data-count-from="420" data-count-to="840">420</span>-->
+<!--                                                    </p>-->
+<!--                                                    <p class="description">Websites Built</p>-->
+<!--                                                    <p class="counter">-->
+<!--                                                        <span class="stat-counter" data-count-from="220" data-count-to="720">200</span>-->
+<!--                                                    </p>-->
+<!--                                                    <p class="description">Design Awards</p>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
                                     </div>
                                 </div>
                             </div>
