@@ -6,13 +6,10 @@
             <div class="column width-6">
                 <div class="widget">
                     <h4 class="widget-title weight-light">Empresa</h4>
-                    <p><strong>Starting a new business?</strong>
-                        Then Sartre is for you!<br>
-                        This multi-purpose template offsers 8 carefully crafted concepts with two
-                        variations each, 20+ components and 8+ plugins. It also comes with a range
-                        of different headers, footers and pre-designed content blocks that can easily
-                        be swaped around to create new interesting layouts. Simple, Elegent
-                        and Powerful!
+                    <p><strong>A MasterOne</strong>
+                        é uma empresa jovem criada por profissionais ativos no mercado SAP
+                        Business One, aqui você está falando com quem realmente entende e vivencia o processo
+                        de implantação de softwares.
                     <p>
                 </div>
             </div>
