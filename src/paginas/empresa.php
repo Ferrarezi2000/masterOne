@@ -236,7 +236,7 @@ $paginaAtual = 'empresa'
                                             </p>
                                             <ul class="social-list list-horizontal">
                                                 <li><a href="#"><span class="icon-facebook small"></span></a></li>
-                                                <li><a href="#"><span class="icon-behance small"></span></a></li>
+                                                <li><a href="#"><span class="icon-twitter small"></span></a></li>
                                             </ul>
                                         </div>
                                     </div>
