@@ -100,71 +100,14 @@
 					</div>
 				</section>
 				<!-- Feature Section 2 End -->
-                <hr>
-                <!-- Feature Section 2 -->
-                <section class="section-block feature-2">
-                    <div class="row flex">
-                        <div class="column width-6 push-6">
-                            <div class="feature-content">
-                                <div class="feature-content-inner horizon center-on-mobile"
-                                     data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;"
-                                     data-threshold="0.6">
-                                    <h2 class="mb-30">
-                                        O que é Lorem Ipsum?
-                                    </h2>
-                                    <p class="lead">
-                                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
-                                        de impressos,
-                                    </p>
-                                    <p>
-                                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou
-                                        uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
-                                        Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a
-                                        editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na
-                                        década de 60, quando a Letraset lançou decalques contendo passagens de Lorem
-                                        Ipsum, e mais recentemente quando passou a ser integrado a softwares de
-                                        editoração eletrônica como Aldus PageMaker.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column width-6 pull-6 pull-1">
-                            <div class="feature-content">
-                                <div class="feature-content-inner horizon center-on-mobile"
-                                     data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;"
-                                     data-threshold="0.6">
-                                    <h2 class="mb-30">
-                                        O que é Lorem Ipsum?
-                                    </h2>
-                                    <p class="lead">
-                                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
-                                        de impressos,
-                                    </p>
-                                    <p class="txt-just">
-                                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou
-                                        uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
-                                        Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a
-                                        editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na
-                                        década de 60, quando a Letraset lançou decalques contendo passagens de Lorem
-                                        Ipsum, e mais recentemente quando passou a ser integrado a softwares de
-                                        editoração eletrônica como Aldus PageMaker.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Feature Section 2 End -->
-
-
                 <section class="section-block feature-2 textura">
                     <div class="row">
                         <div class="column width-4">
-                            <h2 class="mb-30">Bem vindo</h2>
+                            <h2 class="mb-30">Entre em contato conosco!</h2>
                             <div class="row">
                                 <div class="column width-10">
                                     <p>
-                                        Entre em contato conosco, será um prazer atende-lós.
+                                       Será um prazer atende-lós.
                                     </p>
                                 </div>
                             </div>

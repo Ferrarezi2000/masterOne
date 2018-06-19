@@ -148,7 +148,8 @@ $paginaAtual = 'blog'
                                                 <div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
                                                      data-hover-speed="700" data-hover-bkg-color="#ffffff"
                                                      data-hover-bkg-opacity="0.9">
-                                                        <img src="../../imagens/minhas_imagens/blog/post/'.$value['imagem'].'" alt=""/>
+                                                        <img src="../../imagens/minhas_imagens/blog/post/'.$value['imagem'].'" alt="" 
+                                                             style="max-width: 500px; min-width: 500px"/>
                                                 </div>
                                             </div>
                                             <div class="post-content">
@@ -185,7 +186,7 @@ $paginaAtual = 'blog'
                                         </article>
                                     </div>
                                     <hr>';
-                                    }
+                                }
                         }; ?>
 
 
