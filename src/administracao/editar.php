@@ -59,12 +59,12 @@ echo $resultado["titulo"];
               action="../../php/bancoDados/editar-post.php" method="POST" enctype="multipart/form-data">
 
             <input type="text" id="id" name="id" style="display: none"
-                   value="<?php echo $resultado["id"] ?>"/>
+                   value="<?php echo $resultado[ "id" ] ?>"/>
 
             <div class="form-group">
                 <div class="controls">
                     <label>Imagem</label>
-                    <input name="imagem" type="file" />
+                    <input name="imagem" type="file"/>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ echo $resultado["titulo"];
                     <div class="form-group">
                         <label>Título</label>
                         <input type="text" id="titulo" class="form-control" name="titulo" autocomplete="off" required
-                               value="<?php echo $resultado["titulo"] ?>"/>
+                               value="<?php echo $resultado[ "titulo" ] ?>"/>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ echo $resultado["titulo"];
                     <div class="form-group">
                         <label>Texto</label>
                         <textarea id="texto" name="texto" placeholder="texto" required>
-                            <?php echo $resultado["texto"] ?>
+                            <?php echo $resultado[ "texto" ] ?>
                         </textarea>
                     </div>
                 </div>

@@ -11,6 +11,6 @@ $senhaLocal = "1234";
 $bancoLocal = "master-one";
 
 
-$conexao = new mysqli($hostLocal, $userLocal, $senhaLocal, $bancoLocal) or die ("Sem conexão com o servidor");
-//$conexao = new mysqli($hostProducao, $userProducao, $senhaProducao, $bancoProducao);
+$conexao = new mysqli($hostLocal, $userLocal, $senhaLocal, $bancoLocal) or die("Sem conexão com o servidor");
+//$conexao = new mysqli($hostProducao, $userProducao, $senhaProducao, $bancoProducao) or die("Sem conexão com o servidor");
 

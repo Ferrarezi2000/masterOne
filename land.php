@@ -79,20 +79,18 @@
                                      data-animate-in="preset:slideInUpShort;duration:900ms;delay:300ms;"
                                      data-threshold="0.6">
 									<h2 class="mb-30">
-                                        O que é Lorem Ipsum?
+                                        O que é a Master One?
                                     </h2>
 									<p class="lead">
-                                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e
-                                        de impressos,
+                                        A MasterOne é uma empresa jovem criada por profissionais ativos no mercado SAP
+                                        Business One.
                                     </p>
 									<p class="txt-just">
-                                        e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou
-                                        uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
-                                        Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a
-                                        editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na
-                                        década de 60, quando a Letraset lançou decalques contendo passagens de Lorem
-                                        Ipsum, e mais recentemente quando passou a ser integrado a softwares de
-                                        editoração eletrônica como Aldus PageMaker.
+                                        Aqui você está falando com quem realmente entende e vivencia o processo
+                                        de implantação de softwares.<br/><br/>
+                                        Com mais de 10 anos de experiência no mercado de software, os profissionais estão
+                                        prontos para lhe entregar uma implantação de qualidade, que irá levar a sua empresa para
+                                        um próximo nível no mercado.
                                     </p>
 								</div>
 							</div>
